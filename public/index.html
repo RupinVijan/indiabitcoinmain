@@ -10,8 +10,8 @@
     <meta content="" name="keywords" />
 
     <!-- Favicons -->
-    <!-- <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+    <link href="assets/img/indiaBitcoinMan.jpeg" rel="icon">
+ <!--  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
     <!-- Google Fonts -->
     <link
@@ -39,16 +39,22 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
   </head>
-
+<style>
+  body {
+    font-family: "Microsoft JhengHei", Arial, sans-serif;
+    background: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+    letter-spacing: 1px;
+  }
+</style>
   <body>
     <!-- ======= Header ======= -->
     <header id="header" class="header fixed-top">
       <div
         class="container-fluid container-xl d-flex align-items-center justify-content-between"
       >
-        <a href="index.html" class="logo d-flex align-items-center">
+        <a href="/" class="logo d-flex align-items-center">
           <img src="assets/img/logo.png" alt="" />
-          <span>Satoshi Yug</span>
+          <span>India's Bitcoin Man</span>
         </a>
 
         <nav id="navbar" class="navbar">
@@ -77,7 +83,7 @@
           </li> -->
             <!-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li> -->
             <li>
-              <a class="getstarted scrollto" href="#about">Start Professional Chat</a>
+              <a class="getstarted scrollto" href="/chat">Start Professional Chat</a>
             </li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
@@ -91,13 +97,10 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 d-flex flex-column justify-content-center">
-            <h1 data-aos="fade-up">Delhi, DL: Bitcoin Chatbot Coaching!</h1>
+            <h1 data-aos="fade-up">Bitcoin Chatbot Coaching!</h1>
             <h2 data-aos="fade-up" data-aos-delay="400">
-              "Satoshi Yug", a chatbot-based Bitcoin Education Coaching in
-              Delhi, DL, offers you an innovative and interactive learning
-              experience. Get a comprehensive understanding of Bitcoin trading
-              and investments from Satoshi Yug and step into the digital
-              currency world with confidence!
+              India's Bitcoin Man, a chatbot-based Bitcoin Education Coaching in Delhi, DL, offers a cutting-edge and engaging learning experience for its users.
+              Get a thorough understanding of Bitcoin trading & investments from India's Bitcoin Man and enter the world of digital currencies with confidence!
             </h2>
             <div data-aos="fade-up" data-aos-delay="600">
               <div class="text-center text-lg-start">
@@ -137,29 +140,8 @@
                 <h1 class="AboutUsText">About us</h1>
              
                 <p>
-                  I'm excited to announce the launch of my new business, Satoshi
-                  Yug, offering coaching on Bitcoin Education in Delhi, DL. As
-                  someone who has been a part of the cryptocurrency community
-                  for years, I'm passionate about educating the public on the
-                  potential of this revolutionary technology. Satoshi Yug will
-                  provide personalized coaching to those interested in learning
-                  more about Bitcoin, including the basics of digital currency,
-                  the potential of blockchain technology, and how to use it
-                  safely in everyday life. Through my chatbot, users will have
-                  access to 24/7  support and educational resources, as well as
-                  the ability to ask questions and get answers in real-time. I'm
-                  thrilled to be able to provide this service to the local
-                  community in Delhi, DL and beyond.
+                  It excites me to introduce my new business, India's Bitcon Man, which provides coaching on Bitcoin Education in India. As a longtime member of the cryptocurrency community, I'm passionate about enlightening the public about the potential of this revolutionary technology. For individuals who are interested in learning more about Bitcoin, India's Bitcoin Man will offer personalized coaching covering the fundamentals of the cryptocurrency, the promise of blockchain technology, and practical applications for its secure use. My chatbot will give users immediate access to 24/7 assistance, educational materials, and the ability to ask questions and get real time answers. I'm overjoyed to be able to offer this service to the people in India, and beyond.
                 </p>
-                <!-- <div class="text-center text-lg-start">
-                  <a
-                    href="#"
-                    class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center"
-                  >
-                    <span>Read More</span>
-                    <i class="bi bi-arrow-right"></i>
-                  </a>
-                </div> -->
               </div>
             </div>
 
@@ -1223,9 +1205,8 @@ s
 
             <div class="ContactConTainer">
               <form
-                action="forms/contact.php"
+                action="/contactForm"
                 method="post"
-                class="php-email-form"
               >
                 <div class="row gy-4">
                   <div class="col-md-6">
@@ -1252,8 +1233,8 @@ s
                     <input
                       type="text"
                       class="form-control"
-                      name="subject"
-                      placeholder="Subject"
+                      name="phone"
+                      placeholder="Phone Number"
                       required
                     />
                   </div>
@@ -1267,16 +1248,7 @@ s
                       required
                     ></textarea>
                   </div>
-
-                  <div class="col-md-12 text-center">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">
-                      Your message has been sent. Thank you!
-                    </div>
-
-                    <button type="submit">Send Message</button>
-                  </div>
+                  <button class="btn btn-primary" style="width:100px;" type="submit">Submit</button>
                 </div>
               </form>
             </div>
