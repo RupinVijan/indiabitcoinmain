@@ -4,7 +4,7 @@ import contactForm from "./routes/contactForm";
 import path from "path";
 
 const mongoose = require("mongoose");
-let MongoDbURL = "mongodb+srv://Tanmaydeep:tanmay@cluster1.vcm3w.mongodb.net/satoshiyug";
+let MongoDbURL = process.env.MONGODB_URL;
 mongoose.connect(MongoDbURL);
 var db = mongoose.connection;
 db.on("error", console.error.bind(console, "Connection error : "));
